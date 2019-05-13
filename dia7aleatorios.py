@@ -15,10 +15,10 @@ print(aleatorio) #imprimimos el numero generando
 # desafio: no volver a retornar una persona
 #  ya sorteada
 
-from random import randint
+from random import randint             
 participantes=["Jorge","Maria","Ana","Beatriz"]
 def sorteo(lista_participantes):
-    cant=len(lista_participantes)
+    cant=len(lista_participantes)       
     aleatorio=randint(0,cant)
     ganador=participantes[aleatorio]
     return ganador
